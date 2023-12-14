@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.alarmClock {
+    font-family: 'Courier New', monospace;
+    color:rgb(207, 157, 157) ;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 4px 4px rgb(142, 82, 82);
+    position: absolute;
+    top: 20px;
+    width: 100%;
+
+}
+
+.clockBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.clockBoxes .box1,
+.clockBoxes .box2,
+.clockBoxes .box3 {
+    height: 200px; /* Adjust size as needed */
+    width: 250px; /* Adjust size as needed */
+    background-color: rgb(61, 127, 127);
+    margin: 2px;
+}
